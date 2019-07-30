@@ -1,0 +1,35 @@
+.frameContainer {
+    margin-left: 20%;
+    margin-right: 20%;
+     /* margin-top: 1%;  */
+    /* background-image: url("./frameBack.jpg"); */
+    background-color: lightgray;
+    /* position: relative; */
+    position:sticky;
+    top: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 650px;
+    /* height: auto;
+    min-height: calc(100% - 93px);
+    max-height: calc(100% - 93px);
+    overflow-y: scroll;
+    overflow-x: hidden; */
+
+}
+
+.title{
+    background-color: whitesmoke;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position:sticky;
+    top: 0;
+}
+
+.items{
+    padding-left: 5px;
+}
+
+.loadMore{
+    cursor: pointer;
+}
